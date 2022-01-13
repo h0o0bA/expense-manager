@@ -1,4 +1,4 @@
-# React Budget App
+# React Expense Manager App
 
 To run:
 
