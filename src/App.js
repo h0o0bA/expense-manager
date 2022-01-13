@@ -3,8 +3,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import { AppProvider } from "./context/AppContext";
 import ExpenseTotal from "./components/ExpenseTotal";
-import AddExpenseForm from "./components/AddExpenseForm";
+import CategoryExpenses from "./components/CategoryExpenses";
 import ExpenseList from "./components/ExpenseList";
+import AddExpenseForm from "./components/AddExpenseForm";
 
 const App = () => {
   return (
@@ -14,6 +15,13 @@ const App = () => {
         <div className="row mt-3">
           <div className="col-sm">
             <ExpenseTotal />
+          </div>
+        </div>
+        <br />
+        <h3 className="mt-3">Company Category Expenses</h3>
+        <div className="row ">
+          <div className="col-sm">
+            <CategoryExpenses />
           </div>
         </div>
         <br />
